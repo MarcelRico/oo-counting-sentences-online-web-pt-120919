@@ -22,7 +22,7 @@ class String
     while str[idx]
       case str[idx]
       when "."
-        sentences << str[last_idx..idx]
+        sentences << str[last_idx...idx]
       when "!"
       when "?"
         
