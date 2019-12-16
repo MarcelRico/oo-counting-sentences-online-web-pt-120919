@@ -29,6 +29,6 @@ class String
       end
       idx+=1
     end
-    puts sentences
+    pp sentences
   end
 end
