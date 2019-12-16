@@ -18,12 +18,15 @@ class String
     idx = 0
     last_idx = 0
     sentences =  []
-    while self[idx]
-      case self[idx]
+    str = self
+    while str[idx]
+      case str[idx]
       when "."
       when "!"
       when "?"
-        
+        sentences << str[last_idx..idx]
+        last_idx = idx
+      end
       idx+=1
     end
   end
