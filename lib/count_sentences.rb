@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     str = self
-    pp str.split(/[\.\!\?]/)
-
+    new_arr = str.split(/[\.\!\?]/)
+    pp new_arr.delete("")
   end
 end
