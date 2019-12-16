@@ -17,8 +17,9 @@ class String
   def count_sentences
     idx = 0
     last_idx = 0
+    sentences =  []
     while self[idx]
-      puts self[idx]
+      case self[idx]
       idx+=1
     end
   end
