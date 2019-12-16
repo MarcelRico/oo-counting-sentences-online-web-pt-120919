@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     idx = 0
+    last_idx = 0
     while self[idx]
       puts self[idx]
       idx+=1
