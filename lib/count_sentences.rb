@@ -20,6 +20,10 @@ class String
     sentences =  []
     while self[idx]
       case self[idx]
+      when "."
+      when "!"
+      when "?"
+        
       idx+=1
     end
   end
