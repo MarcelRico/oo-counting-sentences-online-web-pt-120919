@@ -18,6 +18,6 @@ class String
     str = self
     new_arr = str.split(/[\.\!\?]/)
     new_arr.delete("")
-    pp new_arr
+    new_arr.length
   end
 end
