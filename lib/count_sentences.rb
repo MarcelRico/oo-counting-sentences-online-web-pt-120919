@@ -18,6 +18,7 @@ class String
     idx = 0
     while self[idx]
       puts self[idx]
+      idx+=1
     end
   end
 end
